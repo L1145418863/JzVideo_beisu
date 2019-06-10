@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "# JzVideo_beisu" 
 饺子视频播放器倍速功能
 
