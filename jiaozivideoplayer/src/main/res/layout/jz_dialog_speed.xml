@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/jz_dialog_progress_bg"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/jz_speed_07"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:text="0.7倍"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/jz_speed_1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:text="1.0倍"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/jz_speed_12"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:text="1.2倍"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/jz_speed_15"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:text="1.5倍"
+        android:textColor="#FFF" />
+    <TextView
+        android:id="@+id/jz_speed_20"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:text="2.0倍"
+        android:textColor="#FFF" />
+</LinearLayout>
