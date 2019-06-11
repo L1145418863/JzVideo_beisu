@@ -38,9 +38,16 @@ public class MainActivity extends AppCompatActivity {
         objects[1] = false;
         objects[2] = new HashMap<>();
         ((HashMap) objects[2]).put("key", "value");
-
+        /**
+         * 清晰度切换
+         */
         jzvideoplayerstandard.setUp(objects, 0
                 , JZVideoPlayerStandard.SCROLL_AXIS_HORIZONTAL, "可选集 可倍速");
+        /**
+         * 单视频播放
+         */
+        /*jzvideoplayerstandard.setUp("http://ssb-video.oss-cn-qingdao.aliyuncs.com/Video_1003_20161027140007.mp4"
+                , JZVideoPlayerStandard.SCREEN_WINDOW_NORMAL);*/
 
         jzvideoplayerstandard.setonVideoEndLinstener(new JZVideoPlayerStandard.onVideoEndLinstener() {
             @Override
